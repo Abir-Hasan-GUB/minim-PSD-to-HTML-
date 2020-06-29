@@ -1,0 +1,311 @@
+/*==================Comon CSS======================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(4, 188, 220);
+}
+
+ul li {
+    list-style: none;
+}
+
+/*==================Common CSS End=========================*/
+
+/*============Start Menu Part==================*/
+
+#menu {
+    height: 100px;
+    width: 100%;
+}
+
+.container {
+    height: auto;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100px;
+    width: 30%;
+    float: left;
+}
+
+.logo .logo-text {
+    font-size: 30px;
+    line-height: 100px;
+    font-family: 'Inconsolata', monospace;
+    color: #000000;
+    background: #fff;
+    letter-spacing: 3px;
+
+}
+
+.menu-list {
+    height: 100px;
+    width: 70%;
+    float: left;
+    background: #fff;
+}
+
+.list li {
+    display: inline-block;
+}
+
+.list li a {
+    line-height: 100px;
+    display: inline-block;
+    margin-left: 140px;
+    color: #626262;
+    font-size: 14px;
+    text-align: right;
+}
+
+/*=======================End Menu Part===================*/
+
+/*======================Start Banner Part===================*/
+
+#banner {
+    height: 500px;
+    width: 100%;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*====================Banner Part End===================*/
+
+#photodiary {
+    height: 1500px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.p-d-text {
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+.p-d-text-header {
+    font-size: 30px;
+    color: #626262;
+}
+
+.photodiary-text {
+    margin-top: 46px;
+    font-size: 14px;
+    font-family: 'Maven Pro', sans-serif;
+    margin-bottom: 80px;
+}
+
+.p-foot {
+    font-size: 14px;
+    color: #b4ad9e;
+    font-family: 'Maven Pro', sans-serif;
+    margin-bottom: 120px;
+}
+
+.photo-gallery {
+    height: 1010px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.photo-1 {
+    height: 480px;
+    width: 47%;
+    margin-right: 3%;
+    float: left;
+}
+
+
+.photo-2 {
+    height: 480px;
+    width: 47%;
+    margin-left: 3%;
+    float: left;
+}
+
+.picture {
+    height: 280px;
+    width: 100%;
+}
+
+.picture img {
+    height: 100%;
+    width: 100%;
+}
+
+.picture-text {
+    height: 200px;
+    width: 100%;
+}
+
+.picture-text h4 {
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.picture-text h1 {
+    font-size: 30px;
+    color: #626262;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+
+.picture-text p {
+    font-size: 14px;
+    color: #626262;
+    text-transform: capitalize;
+}
+
+.up {
+    margin-top: 50px;
+}
+
+/*=============End Photography part==============*/
+/*=========Start Signup part=========*/
+#signup {
+    height: 220px;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.sign-text h1 {
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.from-mail {
+    width: 50%;
+    height: 26px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5px;
+    color: #555;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.from {
+    margin-left: 32%;
+    margin-top: 25px;
+}
+
+.max {
+    border: none;
+}
+
+.plane {
+    margin-left: -20px;
+
+}
+
+.from input[type=mail] {
+    border-bottom: 1px solid #000;
+}
+
+/*================End Signing Part==============*/
+
+
+/*===========Start Travel Part=================*/
+
+#travel {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+/*=============End Travel Part==============*/
+
+/*==============Start Btn Part=================*/
+
+#button {
+    height: 100px;
+    width: 100%;
+
+}
+
+.btn a {
+    padding: 15px 20px;
+    border: 1px solid #626262;
+    ;
+    margin-left: 45%;
+}
+
+/*===========End Btn Part==============*/
+/*================Start Footer Part===============*/
+
+#footer-part {
+    height: 50px;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.footer-left {
+    height: 50px;
+    width: 50%;
+    float: left;
+}
+
+.footer-left .t {
+    line-height: 50px;
+
+}
+
+.f-1 {
+    margin-right: 20px;
+}
+
+.footer-right {
+    height: 50px;
+    width: 50%;
+    float: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right .f-ul li {
+    display: inline-block;
+}
+
+.f-3-r {
+    margin-right: 100px;
+    line-height: 50px;
+}
+
+.f-ul {
+    margin-top: -34px;
+    margin-right: 20px;
+    letter-spacing: 5px;
+}
+
+/*====================End Footer Part============================*/
+
+
+
+
+
+
+/*
+=============================================
+        End Of The PHD File Convert
+=============================================
+*/
